@@ -1,0 +1,108 @@
+body {
+    background-color: #fdf5e6; /* Light Sand Color */
+    background-image: linear-gradient(rgba(253, 245, 230, 0.8), rgba(253, 245, 230, 0.8)), 
+                      url('https://www.transparenttextures.com/patterns/sandpaper.png');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5d4037; /* Dark Brown */
+    margin: 0;
+    padding: 40px;
+    direction: ltr; /* English alignment */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #d2b48c;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #a04000;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #a04000; /* Deep Orange/Brown */
+    font-size: 2.8em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* Left section for text */
+.text-section {
+    flex: 2;
+}
+
+/* Right section for vertical media */
+.image-sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    color: #8b4513;
+    border-left: 5px solid #a04000;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.item-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e0d5c1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #d2b48c;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #a04000;
+    color: white;
+}
+
+/* Sidebar Media Styling */
+.sidebar-img {
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid #d2b48c;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.video-container {
+    width: 100%;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #a04000;
+    background: #000;
+}
